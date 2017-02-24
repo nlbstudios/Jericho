@@ -1,0 +1,545 @@
+/* Main Stylesheet */
+
+
+/* Typograhpy */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+p {
+    font: 17px/35px 'Open Sans', sans-serif;
+    color: #8c8c8c;
+}
+
+li {
+    font: 17px/35px 'Open Sans', sans-serif;
+    color: #8c8c8c;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+a:hover {
+    /*background-color: black;*/
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+a:active {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+a:visited {
+    /*color: #8c8c8c;*/
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.blocktitle {
+    font-family: 'Raleway';
+    font-size: 60px;
+    color: #335387;
+}
+
+
+/* END TYPOGRAPHY */
+
+
+/* Divider Styling */
+
+.titleunderline_offset {
+    width: 170px;
+    height: 2px;
+    background-color: #b7b7b7;
+    margin: 25px 0 35px 0;
+}
+
+.titleunderline_centered {
+    width: 170px;
+    height: 2px;
+    background-color: #b7b7b7;
+    margin: 25px auto 35px auto;
+}
+
+
+/* End Divider Styling */
+
+
+/* Header Styling */
+
+.navbar {
+    background-color: #ededed;
+    border-color: transparent;
+    margin-bottom:0px;
+}
+
+
+.navbar-brand {
+    width: 375px;
+    height:105px;
+}
+
+.navbar-nav li a {
+    margin: 15px 0 0 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #335387;
+    font-size: 18px;
+    -webkit-transition: .5s;     transition: .5s;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #335387;
+    color: white;
+    border-radius:10px;
+}
+
+/* End Header Styling */
+
+/* Welcome Slider */
+
+.titleunderline_white {
+    width: 170px;
+    height: 2px;
+    background-color: white;
+    margin: 25px auto 35px auto;
+}
+
+.parallaxrow {
+    padding: 6% 0 6% 0;
+}
+
+
+/*.parallax-window {
+    background: transparent;
+}*/
+
+.topslider_bottom_border {
+    height: 10px;
+    width: 100%;
+    margin-bottom:20px;
+    background-color: #f8f9b1;
+}
+
+#welcometitle {
+    font-size: 60px;
+    margin: auto;
+    color: white;
+    font-weight: 20px;
+    text-shadow: 2px 2px #777777;
+}
+
+#titletext {
+    font: 25px Raleway, Sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0px 20px 50px 20px;
+    line-height: 30px;
+}
+
+
+/* Buttons */
+
+.sliderbuttons {
+    color: white;
+    border: 4px solid white;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    margin: 50px auto 50px auto;
+    max-width:150px;
+}
+
+.sliderbuttons:hover {
+    background-color: white;
+    color: gray;
+}
+
+
+/* End buttons */
+
+
+/* End Welcome Slider Styling */
+
+
+/* Overview Section */
+
+.overviewpic {
+    margin-top: 13%;
+    text-align: center;
+}
+
+
+/* End of Overview Section */
+
+
+/* Struggle Slider */
+
+.struggleslider {
+    /*min-height: 500px;*/
+    background: url("images/struggleslider2.png") no-repeat center;
+    background-size: cover;
+    padding: 90px 0 0 0;
+    margin: 40px 0 0 0;
+}
+
+#struggletext {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 10% 2% 10%;
+}
+
+#struggleheader {
+    font-family: 'Raleway';
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    margin: 0 15px 25px 15px;
+}
+
+#strugglebutton {
+    margin: 50px auto 20px auto;
+}
+
+
+/* End of struggle slider */
+
+
+/* Our Mission Section*/
+
+.ourmissionunderline {
+    width: 170px;
+    height: 2px;
+    background-color: #b7b7b7;
+    margin: 25px auto 35px auto;
+}
+
+
+/* End of Mission Section */
+
+
+/* Image Links */
+
+#imagelinktext {
+    color: white;
+}
+
+.imagelinks {
+    margin: 0 auto 0 auto;
+}
+
+.imagelinkrow {
+    margin: 3% 0 3% 0;
+    padding: 3% 0px 3% 0;
+    background-color: #335387;
+}
+
+
+/* End of Image Links */
+
+
+/* Form at the bottom of landing page */
+
+.preformrow {
+    margin: 20px 0 20px 0;
+}
+
+#findusheader {
+    font-size: 40px;
+    color: #335387;
+}
+
+.formunderline {
+    width: 170px;
+    height: 2px;
+    background-color: #b7b7b7;
+    margin: 25px auto 35px auto;
+}
+
+.col-flt-left {
+    float: left;
+    width: 50%;
+}
+
+.col-flt-right {
+    float: right;
+    width: 50%;
+}
+
+.maincontact {
+    width: 100%;
+    height: 35px;
+    margin: 5px 10px 0 0;
+    padding: 0px 10px 0 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #cccccc;
+    border-radius: 5px;
+}
+
+.formmessage {
+    height: 150px;
+    margin: 5px 10px 20px 0;
+    padding: 0 10px 115px 10px;
+    color: #a5a5a5;
+}
+
+.btn-primary {
+    background-color: #335387;
+    margin: 0px 0px 15px 0px;
+}
+
+
+/* End form at the bottom of landing page */
+
+
+/*This is the style sheet for the About Us page of The Jericho House */
+
+.aboutheader_style {
+    padding: 4% 0px 4% 0px;
+    background: url(images/aboutustop5.png) no-repeat top fixed;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*variations for the headers*/
+
+.header__text_style_center {
+    font-family: 'Raleway';
+    color: white;
+    text-align: center;
+}
+
+.title_shadow {
+    text-shadow: 2px 2px #606060;
+}
+
+.aboutheader__text_style_left {
+    font-family: 'Raleway';
+    color: #335387;
+    text-align: left;
+}
+
+.aboutheader__text_style_right {
+    font-family: 'Raleway';
+    font-size: 45px;
+    color: #335387;
+    text-align: right;
+}
+
+.header__underline {
+    height: 3px;
+    width: 350px;
+    margin: auto;
+}
+
+.header__underline_style {
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px #606060;
+}
+
+
+/* History Section */
+
+.about__text {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.aboutsection_spacing {
+    margin: 0px auto 80px auto;
+}
+
+
+/* Vision Section */
+
+
+/* End Vision Section */
+
+
+/* Staff Section */
+
+.stafftitle_underline {
+    width: 100%;
+    height: 3px;
+    background-color: #cccccc;
+    margin: -8px 0px 0px 20%;
+}
+
+.ourstaff__title_div{
+  background-color:#d1d1d1;
+  padding:2% 0px 2% 0px;
+  margin-bottom:5%;
+}
+
+.staffpic {
+    margin: 0px 30px 20px 30px;
+    width: 250px;
+}
+
+.staffname {
+    display: inline-block;
+    font-size: 40px;
+    margin: 40px 0px 0px 0px;
+    color: #335387;
+}
+
+.stafftitle {
+    color: #a5a5a5;
+}
+
+.staffcontent {
+    margin: -17px 0 0 0;
+}
+
+
+/* End Staff Section */
+
+
+/* Our Program Page */
+
+.ourprogram_header_style {
+    padding: 4% 0px 4% 0px;
+    background: url(images/ourprogramtop5.png) no-repeat top fixed;
+    height:530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ourprogram__logo_style {
+    margin: 20px 0px 0px 0px;
+}
+
+.admissions__header {
+    padding: 45px 20px 20px 20px;
+}
+
+.admissions__divider {
+    height: 2px;
+    background-color: #335387;
+    padding: 0;
+    margin: 0;
+}
+
+.program__requirements_text{
+    padding: 45px 30px 30px 30px;
+}
+
+.program__requirements_title{
+  background-color: #d1d1d1;
+  padding:1.5% 0px 1.5% 0px;
+}
+
+.smallheader_style {
+    color: #335387;
+    font-size: 45px;
+}
+
+.smallheader_style_centered{
+  text-align:center;
+}
+
+.program__aacc_words {
+    padding: 6% 0px 0px 0px;
+}
+
+
+/* End our Program Page */
+
+
+/* Industries Page Styling*/
+
+
+/* End Industries Page Styling */
+
+
+/* Footer */
+
+.footer-bg {
+    background-color: #335387;
+    /*height: 100%;*/
+}
+
+.footer__text{
+    font-size:12px;
+    color:white;
+}
+
+footer a {
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.centered-footer {
+    padding: 40px 0 5px 0;
+    vertical-align: baseline;
+    position: relative;
+    text-align: center;
+}
+
+.iconlink{
+  -webkit-transition: .5s;     transition: .5s;
+}
+
+.iconlink:hover{
+  color:#819bc4;
+}
+
+}
+
+.iconlink:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* End Footer Styling */
+
+
+/* Media Querys */
+
+@media (max-width: 993px) {
+    .sliderbuttons_stack {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .blocktitle, #struggleheader, #welcometitle{
+      font-size:40px;
+    }
+    p, #titletext, #struggletext{
+      font-size:16px;
+    }
+    .overview_image, .header__underline, .imagelinks, .staffpic{
+      width:75%;
+
+    }
+    .navbar-brand{
+      width:150px;
+      height:60px;
+    }
+
+}
