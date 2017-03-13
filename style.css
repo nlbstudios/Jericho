@@ -94,7 +94,7 @@ a:-webkit-any-link {
 }
 
 .navbar-nav li a {
-    margin: 15px 0 0 0;
+    margin: 15px 5px 0 5px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -322,6 +322,12 @@ a:-webkit-any-link {
 
 /*variations for the headers*/
 
+.header__text_style_center_blue {
+    font-family: 'Raleway';
+    color: #335387;
+    text-align: center;
+}
+
 .header__text_style_center {
     font-family: 'Raleway';
     color: white;
@@ -378,6 +384,13 @@ a:-webkit-any-link {
 
 
 /* Staff Section */
+
+.staffgroup{
+  background-image: url(images/staffpics/grouppic.png);
+  max-width: 1200px;
+  margin: 0px auto 0px auto;
+}
+
 
 /* Test styling for staff section */
 
@@ -531,8 +544,12 @@ a:-webkit-any-link {
 
 footer a {
     color: white;
-    padding: 0 10px 0 10px;
 }
+
+.fa-footer-a {
+    padding: 10px;
+}
+
 
 footer a:hover {
     text-decoration: none;
