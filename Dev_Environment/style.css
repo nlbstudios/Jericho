@@ -258,7 +258,7 @@ a:-webkit-any-link {
 
 .imagelinkrow {
     margin: 3% 0 3% 0;
-    padding: 3% 0px 3% 0;
+    padding: 6% 0px 3% 0;
     background-color: #335387;
 }
 
@@ -391,6 +391,7 @@ a:-webkit-any-link {
 
 /* Staff Section */
 
+/*group picture*/
 .staffgroup{
   background-image: url(images/staffpics/grouppic.png);
   width:100%;
@@ -398,81 +399,103 @@ a:-webkit-any-link {
   margin: 0px auto 0px auto;
 }
 
-
-/* Test styling for staff section */
-
-.staffblock{
-  /*background-color: #d1d1d1;*/
-  padding: 0px 20px 20px 20px;
-  margin: 30px 5px 30px 5px;
-  border-radius: 40px;
-  height: 1070px;
-}
-
-.staffblock2{
-  /*background-color: #d1d1d1;*/
-  padding: 0px 10px 10px 10px;
-  margin: 30px 5px 50px 5px;
-  border-radius: 40px;
-  border-left: 2px solid #d1d1d1;
-  border-bottom: 2px solid #d1d1d1;
-  border-right: 2px solid #d1d1d1;
-  height: 1050px;
-}
-
-
-#staffgrad {
-    background: #d1d1d1; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(white, #d1d1d1); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(white, #d1d1d1); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(white, #d1d1d1); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(white, #d1d1d1); /* Standard syntax (must be last) */
-}
-
-.staffpic_test{
-  width:150px;
-  border-radius:50%;
-  margin: 0px auto 0px auto;
-}
-
-/* End test styling for staff styling */
-
-
 .ourstaff__title_div{
   background-color:#efefef;
   padding:2% 0px 2% 0px;
-  margin-bottom:5%;
 }
 
-
-.staffpic {
-    margin: 0px 30px 20px 30px;
+/*staff member pictures*/
+.staffpicleft {
+    margin: 30px auto 20px auto;
     width: 250px;
+    border-width:10px;
+    border-radius: 10px;
+    float:left;
+}
+
+.staffpicright {
+  margin: 30px auto 20px auto;
+  width: 250px;
+  border-width:10px;
+  border-radius: 10px;
+  float:right;
+}
+
+@media(min-width:399px){
+  .staffpicright{
+    margin:30px 30px 0px 30px;
+  }
+  .staffpicleft{
+    margin:30px 30px 0px 30px;
+  }
+}
+
+.staffunderline{
+  position:absolute;
+  height:2px;
+  width:100%;
+  background-color:#335387;
+  z-index:-1;
+  transform: translateY(-6px);
 }
 
 .staffname {
-    /*display: inline-block;*/
-    font-size: 40px;
-    margin: 40px 0px 0px 0px;
-    color: #335387;
+    font-size: 33px;
+    color: #a5a5a5;
+    margin:20px 0px 0px 0px;
+    display:inline-block;
+}
+
+@media(min-width:534px){
+  .staffname{
+    font-size: 30px;
+    margin:65px 0px 0px 0px;
+    display: block;
+  }
 }
 
 .stafftitle {
     color: #a5a5a5;
+    display: inline-block;
+}
+
+@media(min-width:534px){
+  .stafftitle{
+    display :block;
+    font-size: 18px;
+  }
 }
 
 #staffcontent {
     font-size:15px;
-    color: #335387;
+    color: #a5a5a5;
+    line-height: 25px;
 }
 
+@media(min-width:767px){
+#staffcontent {
+    font-size: 17px;
+    line-height: 32px;
+  }
+}
+
+.btn-more{
+  background-color: #a5a5a5;
+  font-style: italic;
+  color:white;
+  margin:auto;
+}
+
+.btn-more:hover{
+  color:#a5a5a5;
+  background-color: white;
+  border-color:#a5a5a5;
+}
 
 /* End Staff Section */
 
 
 /* Our Program Page */
-
-
 
 .ourprogram__logo_style {
     margin: 20px 0px 0px 0px;
@@ -591,7 +614,7 @@ footer a:hover {
 
 @media (max-width: 767px) {
     .blocktitle, #struggleheader, #welcometitle{
-      font-size:40px;
+      font-size:30px;
     }
     p, #titletext, #struggletext{
       font-size:16px;
@@ -602,7 +625,7 @@ footer a:hover {
       padding:10px;
       border-radius: 8px;
     }
-    .overview_image, .header__underline, .imagelinks, .staffpic{
+    .overview_image{
       width:75%;
 
     }
