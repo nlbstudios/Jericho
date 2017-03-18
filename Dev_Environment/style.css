@@ -138,6 +138,13 @@ a:-webkit-any-link {
     margin: 25px auto 35px auto;
 }
 
+@media (max-width:767px){
+  .titleunderline_white{
+    display:none;
+  }
+}
+
+
 .parallaxrow{
   padding:4% 0px 4% 0px;
 }
@@ -262,6 +269,18 @@ a:-webkit-any-link {
     background-color: #335387;
 }
 
+/* Modal Styling */
+
+#testimony-modal{
+  text-align: center;
+  margin:100px 0px 0px 0px;
+  padding: 0px 10px 0px 10px;
+}
+
+
+/* End of Modal Styling */
+
+
 
 /* End of Image Links */
 
@@ -379,7 +398,7 @@ a:-webkit-any-link {
 }
 
 .aboutsection_spacing {
-    margin: 0px auto 80px auto;
+    margin: 0px auto 30px auto;
 }
 
 
@@ -480,10 +499,11 @@ a:-webkit-any-link {
 }
 
 .btn-more{
-  background-color: #a5a5a5;
+  background-color: #d3d3d3;
   font-style: italic;
   color:white;
   margin:auto;
+  padding:2px 5px 2px 5px;
 }
 
 .btn-more:hover{
@@ -491,6 +511,16 @@ a:-webkit-any-link {
   background-color: white;
   border-color:#a5a5a5;
 }
+
+#joelbutton{
+  margin-bottom:30px;
+}
+
+#joelless{
+  margin-bottom:30px;
+}
+
+
 
 /* End Staff Section */
 
