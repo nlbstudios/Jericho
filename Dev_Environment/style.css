@@ -546,9 +546,10 @@ a:-webkit-any-link {
     padding: 45px 30px 30px 30px;
 }
 
-.program__requirements_title{
+.title_div{
   background-color: #efefef;
   padding:1.5% 0px 1.5% 0px;
+  margin-bottom: 20px;
 }
 
 .smallheader_style {
@@ -570,8 +571,37 @@ a:-webkit-any-link {
 
 /* Industries Page Styling*/
 
+.furniture_header{
+  color:#335387;
+}
 
+.furniture_image{
+  border-width: 5px;
+  border-style:solid;
+  border-radius: 25px;
+  border-color: #adadad;
+  transition: .5s;
+  -webkit-transition: .5s;
+  width:200px;
+  margin:25px 0 0 0;
+}
 
+.furniture_image:hover {
+  opacity: .8;
+  width:210px;
+}
+
+.productsection{
+  margin:15px 0 20px 0;
+}
+
+/* Modals */
+
+.modal-content{
+  background-color: #adadad;
+}
+  
+/* End of Modal styles */
 
 /* End Industries Page Styling */
 
