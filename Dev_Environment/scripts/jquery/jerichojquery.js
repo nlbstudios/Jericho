@@ -3,15 +3,16 @@
 // These lines are meant to initially hide the parts of the bios that will be shown later.
 $("#larryhidden").hide();
 $("#kevinhidden").hide();
-$("#jessehidden").hide();
+$("#markhidden").hide();
 $("#brantleyhidden").hide();
 $("#joelhidden").hide();
+$("#brianhidden").hide();
 $("#larryless").hide();
 $("#kevinless").hide();
-$("#jesseless").hide();
+$("#markless").hide();
 $("#brantleyless").hide();
 $("#joelless").hide();
-
+$("#brianless").hide();
 
 
 //Every person in the staff section has their own jquery functionality
@@ -66,24 +67,24 @@ $(document).ready(function(){
 });
 
 
-//Jesse Buttons
+//mark Buttons
 
 $(document).ready(function(){
-  $("#jessebutton").click(function(){
-    $("#jessehidden").fadeToggle(500);
-    $("#jessebutton").hide();
-    $("#jesseless").show();
-         $(".jesseimage").animate(
+  $("#markbutton").click(function(){
+    $("#markhidden").fadeToggle(500);
+    $("#markbutton").hide();
+    $("#markless").show();
+         $(".markimage").animate(
              {"height": "190px", "width":"190px"},800);
   });
 });
 
 $(document).ready(function(){
-  $("#jesseless").click(function(){
-    $("#jessehidden").fadeToggle(500);
-    $("#jesseless").hide();
-    $("#jessebutton").show();
-         $(".jesseimage").animate(
+  $("#markless").click(function(){
+    $("#markhidden").fadeToggle(500);
+    $("#markless").hide();
+    $("#markbutton").show();
+         $(".markimage").animate(
              {"height": "250px", "width":"250px"},800);
 
   });
@@ -135,7 +136,27 @@ $(document).ready(function(){
   });
 });
 
+//Brian Buttons
+$(document).ready(function(){
+  $("#brianbutton").click(function(){
+    $("#brianhidden").fadeToggle(500);
+    $("#brianbutton").hide();
+    $("#brianless").show();
+         $(".brianimage").animate(
+             {"height": "190px", "width":"190px"},800);
+  });
+});
 
+$(document).ready(function(){
+  $("#brianless").click(function(){
+    $("#brianhidden").fadeToggle(500);
+    $("#brianless").hide();
+    $("#brianbutton").show();
+         $(".brianimage").animate(
+             {"height": "250px", "width":"250px"},800);
+
+  });
+});
 //This is the Jquery for the modal window
 //that pops up when the 'Testimonies' image
 //on the home page is clicked on

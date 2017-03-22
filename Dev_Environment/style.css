@@ -18,6 +18,10 @@ li {
     color: #8c8c8c;
 }
 
+.textwhite{
+  color:white
+}
+
 /* Link Styling */
 a {
     font-family: 'Open Sans', sans-serif;
@@ -169,7 +173,7 @@ a:-webkit-any-link {
   text-align: center;
   color: white;
   margin: 0px 20px 50px 20px;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 /* Buttons */
@@ -273,11 +277,44 @@ a:-webkit-any-link {
 
 #testimony-modal{
   text-align: center;
-  margin:100px 0px 0px 0px;
-  padding: 0px 10px 0px 10px;
+  padding: 100px auto 0px auto;
 }
 
+.modal-content{
+  background-color: transparent;
+  padding: 20px 20px 20px 20px;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  -o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+  box-shadow: 0 5px 15px rgba(0,0,0,0);
+  border-color: transparent;
+}
 
+.modal-dialog{
+    width:100%;
+}
+
+.modal-header{
+  border-bottom: none;
+
+}
+
+.close{
+  opacity:1;
+}
+
+#testimony-modal .modal-content{
+  background-color: #adadad;
+}
+
+#testimony-modal .modal-dialog{
+  max-width:800px;
+}
+
+.modalimage{
+  max-width: 100%;
+  height: auto;
+}
 /* End of Modal Styling */
 
 
@@ -512,11 +549,11 @@ a:-webkit-any-link {
   border-color:#a5a5a5;
 }
 
-#joelbutton{
+#brianbutton{
   margin-bottom:30px;
 }
 
-#joelless{
+#brianless{
   margin-bottom:30px;
 }
 
@@ -594,17 +631,15 @@ a:-webkit-any-link {
 .productsection{
   margin:15px 0 20px 0;
 }
-
-/* Modals */
-
-.modal-content{
-  background-color: #adadad;
-}
-  
-/* End of Modal styles */
-
 /* End Industries Page Styling */
 
+/* Contact Page styling */
+
+.contact_paragraph{
+  margin-bottom: 30px;
+}
+
+/* End of Contact Page styling */
 
 /* Footer */
 
@@ -675,13 +710,14 @@ footer a:hover {
 @media (max-width: 767px) {
     .blocktitle, #struggleheader, #welcometitle{
       font-size:30px;
+      margin-bottom:20px;
     }
     p, #titletext, #struggletext{
       font-size:16px;
       line-height: 25px;
     }
     #titletext{
-      background-color: rgba(0, 0, 0, 0.35);
+      background-color: rgba(0, 0, 0, 0.3);
       padding:10px;
       border-radius: 8px;
     }
