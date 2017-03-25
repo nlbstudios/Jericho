@@ -7,13 +7,16 @@ $("#markhidden").hide();
 $("#brantleyhidden").hide();
 $("#joelhidden").hide();
 $("#brianhidden").hide();
+$("#drewhidden").hide();
+$("#yanceyhidden").hide();
 $("#larryless").hide();
 $("#kevinless").hide();
 $("#markless").hide();
 $("#brantleyless").hide();
 $("#joelless").hide();
 $("#brianless").hide();
-
+$("#drewless").hide();
+$("#yanceyless").hide();
 
 //Every person in the staff section has their own jquery functionality
 
@@ -61,6 +64,30 @@ $(document).ready(function(){
     $("#kevinless").hide();
     $("#kevinbutton").show();
          $(".kevinimage").animate(
+             {"height": "250px", "width":"250px"},800);
+
+  });
+});
+
+
+//Drew Buttons
+
+$(document).ready(function(){
+  $("#drewbutton").click(function(){
+    $("#drewhidden").fadeToggle(500);
+    $("#drewbutton").hide();
+    $("#drewless").show();
+         $(".drewimage").animate(
+             {"height": "190px", "width":"190px"},800);
+  });
+});
+
+$(document).ready(function(){
+  $("#drewless").click(function(){
+    $("#drewhidden").fadeToggle(500);
+    $("#drewless").hide();
+    $("#drewbutton").show();
+         $(".drewimage").animate(
              {"height": "250px", "width":"250px"},800);
 
   });
@@ -157,6 +184,30 @@ $(document).ready(function(){
 
   });
 });
+
+
+//Yancey Buttons
+$(document).ready(function(){
+  $("#yanceybutton").click(function(){
+    $("#yanceyhidden").fadeToggle(500);
+    $("#yanceybutton").hide();
+    $("#yanceyless").show();
+         $(".yanceyimage").animate(
+             {"height": "190px", "width":"190px"},800);
+  });
+});
+
+$(document).ready(function(){
+  $("#yanceyless").click(function(){
+    $("#yanceyhidden").fadeToggle(500);
+    $("#yanceyless").hide();
+    $("#yanceybutton").show();
+         $(".yanceyimage").animate(
+             {"height": "250px", "width":"250px"},800);
+
+  });
+});
+
 //This is the Jquery for the modal window
 //that pops up when the 'Testimonies' image
 //on the home page is clicked on

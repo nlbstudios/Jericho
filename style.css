@@ -549,11 +549,11 @@ a:-webkit-any-link {
   border-color:#a5a5a5;
 }
 
-#brianbutton{
+#yanceybutton{
   margin-bottom:30px;
 }
 
-#brianless{
+#yanceyless{
   margin-bottom:30px;
 }
 
@@ -640,6 +640,16 @@ a:-webkit-any-link {
 }
 
 /* End of Contact Page styling */
+
+/* Blog page styling */
+
+.blogbody{
+  background-color: #efefef;
+  padding: 60px auto 0 auto;
+}
+
+/* End of blog page styling */
+
 
 /* Footer */
 
