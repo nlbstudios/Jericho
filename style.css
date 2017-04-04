@@ -656,6 +656,7 @@ a:-webkit-any-link {
 .footer-bg {
     background-color: #335387;
     /*height: 100%;*/
+    margin-top: 2%;
 }
 
 .footer__text{
