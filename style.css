@@ -636,6 +636,8 @@ a:-webkit-any-link {
 
 .productsection{
   margin:15px 0 20px 0;
+  /*Hiding the product section for now*/
+  display:none;
 }
 /* End Industries Page Styling */
 
