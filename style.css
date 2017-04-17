@@ -275,6 +275,12 @@ a:-webkit-any-link {
 
 /* Modal Styling */
 
+.testimony-text{
+    font-size: 15px;
+    color:white;
+
+}
+
 #testimony-modal{
   text-align: center;
   padding: 100px auto 0px auto;
@@ -291,7 +297,7 @@ a:-webkit-any-link {
 }
 
 .modal-dialog{
-    width:100%;
+    width:95%;
 }
 
 .modal-header{
@@ -693,7 +699,7 @@ footer a:hover {
   color:#819bc4;
 }
 
-}
+
 
 .iconlink:visited {
     text-decoration: none;
