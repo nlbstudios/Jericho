@@ -639,6 +639,35 @@ a:-webkit-any-link {
   /*Hiding the product section for now*/
   display:none;
 }
+
+.portfolio-main{
+	margin: auto auto;
+	padding: 20px 20px;
+}
+
+.portfolio-thumbnails{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	align-items:center;
+	align-content:center;
+	justify-content: center;
+	background-color:#335387;
+	padding: 20px auto 20px auto;
+}
+
+.portitem{
+	height:100px;
+	width:100px;
+	flex-shrink:.5;
+}
+
+@media (max-width: 769px){
+	.mainport{
+	max-width:85%;
+}
+}
+
 /* End Industries Page Styling */
 
 /* Contact Page styling */

@@ -208,6 +208,60 @@ $(document).ready(function(){
   });
 });
 
-//This is the Jquery for the modal window
-//that pops up when the 'Testimonies' image
-//on the home page is clicked on
+//This is the jquery for the gallery on the industries page.
+
+$('.portfolio-item1').on({
+  'click' : function(){
+   $('.mainport').attr('src','images/portfolio/portfolio1.png');
+  }
+});
+
+$('.portfolio-item2').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio2.png');
+  }
+});
+
+$('.portfolio-item3').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio3.png');
+  }
+});
+
+$('.portfolio-item4').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio4.png');
+  }
+});
+
+$('.portfolio-item5').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio5.png');
+  }
+});
+
+$('.portfolio-item6').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio6.png');
+  }
+});
+
+$('.portfolio-item7').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio7.png');
+  }
+});
+
+$('.portfolio-item8').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio8.png');
+  }
+});
+
+$('.portfolio-item9').on({
+  'click' : function(){
+    $('.mainport').attr('src','images/portfolio/portfolio9.png');
+  }
+});
+
+
